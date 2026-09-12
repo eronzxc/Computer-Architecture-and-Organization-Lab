@@ -6,529 +6,529 @@
 .code
 
 start:
-    mov ah,02h
+    mov ah, 02h
 
 ; Line 1: Name: Aaron Ludwig A. Altar
-    mov dl,4eh
+    mov dl, 4eh
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6dh
+    mov dl, 6dh
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,3ah
+    mov dl, 3ah
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,41h
+    mov dl, 41h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,4ch
+    mov dl, 4ch
     int 21h
-    mov dl,75h
+    mov dl, 75h
     int 21h
-    mov dl,64h
+    mov dl, 64h
     int 21h
-    mov dl,77h
+    mov dl, 77h
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,67h
+    mov dl, 67h
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,41h
+    mov dl, 41h
     int 21h
-    mov dl,2eh
+    mov dl, 2eh
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,41h
+    mov dl, 41h
     int 21h
-    mov dl,6ch
+    mov dl, 6ch
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
 
-    mov dl,0dh
+    mov dl, 0dh
     int 21h
-    mov dl,0ah
+    mov dl, 0ah
     int 21h
 
 ; Line 2: Birth Date: July 18, 2004
-    mov dl,42h
+    mov dl, 42h
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,68h
+    mov dl, 68h
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,44h
+    mov dl, 44h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,3ah
+    mov dl, 3ah
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,4ah
+    mov dl, 4ah
     int 21h
-    mov dl,75h
+    mov dl, 75h
     int 21h
-    mov dl,6ch
+    mov dl, 6ch
     int 21h
-    mov dl,79h
+    mov dl, 79h
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,31h
+    mov dl, 31h
     int 21h
-    mov dl,38h
+    mov dl, 38h
     int 21h
-    mov dl,2ch
+    mov dl, 2ch
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,32h
+    mov dl, 32h
     int 21h
-    mov dl,30h
+    mov dl, 30h
     int 21h
-    mov dl,30h
+    mov dl, 30h
     int 21h
-    mov dl,34h
+    mov dl, 34h
     int 21h
 
-    mov dl,0dh
+    mov dl, 0dh
     int 21h
-    mov dl,0ah
+    mov dl, 0ah
     int 21h
 
 ; Line 3: E-mail address: aaronaltar@gmail.com
-    mov dl,45h
+    mov dl, 45h
     int 21h
-    mov dl,2dh
+    mov dl, 2dh
     int 21h
-    mov dl,6dh
+    mov dl, 6dh
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,6ch
+    mov dl, 6ch
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,64h
+    mov dl, 64h
     int 21h
-    mov dl,64h
+    mov dl, 64h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,73h
+    mov dl, 73h
     int 21h
-    mov dl,73h
+    mov dl, 73h
     int 21h
-    mov dl,3ah
+    mov dl, 3ah
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6ch
+    mov dl, 6ch
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,40h
+    mov dl, 40h
     int 21h
-    mov dl,67h
+    mov dl, 67h
     int 21h
-    mov dl,6dh
+    mov dl, 6dh
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,6ch
+    mov dl, 6ch
     int 21h
-    mov dl,2eh
+    mov dl, 2eh
     int 21h
-    mov dl,63h
+    mov dl, 63h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,6dh
+    mov dl, 6dh
     int 21h
 
-    mov dl,0dh
+    mov dl, 0dh
     int 21h
-    mov dl,0ah
+    mov dl, 0ah
     int 21h
 
 ; Line 4: Address: Campo Verde, Santiago, Malvar, Batangas
-    mov dl,41h
+    mov dl, 41h
     int 21h
-    mov dl,64h
+    mov dl, 64h
     int 21h
-    mov dl,64h
+    mov dl, 64h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,73h
+    mov dl, 73h
     int 21h
-    mov dl,73h
+    mov dl, 73h
     int 21h
-    mov dl,3ah
+    mov dl, 3ah
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,43h
+    mov dl, 43h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6dh
+    mov dl, 6dh
     int 21h
-    mov dl,70h
+    mov dl, 70h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,56h
+    mov dl, 56h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,64h
+    mov dl, 64h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,2ch
+    mov dl, 2ch
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,53h
+    mov dl, 53h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,67h
+    mov dl, 67h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,2ch
+    mov dl, 2ch
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,4dh
+    mov dl, 4dh
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6ch
+    mov dl, 6ch
     int 21h
-    mov dl,76h
+    mov dl, 76h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,2ch
+    mov dl, 2ch
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,42h
+    mov dl, 42h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,67h
+    mov dl, 67h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,73h
+    mov dl, 73h
     int 21h
 
-    mov dl,0dh
+    mov dl, 0dh
     int 21h
-    mov dl,0ah
+    mov dl, 0ah
     int 21h
 
 ; Line 5: Province: Batangas
-    mov dl,50h
+    mov dl, 50h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,76h
+    mov dl, 76h
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,63h
+    mov dl, 63h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,3ah
+    mov dl, 3ah
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,42h
+    mov dl, 42h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,67h
+    mov dl, 67h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,73h
+    mov dl, 73h
     int 21h
 
-    mov dl,0dh
+    mov dl, 0dh
     int 21h
-    mov dl,0ah
+    mov dl, 0ah
     int 21h
 
 ; Line 6: Contact Number: 09369434271
-    mov dl,43h
+    mov dl, 43h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,63h
+    mov dl, 63h
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,4eh
+    mov dl, 4eh
     int 21h
-    mov dl,75h
+    mov dl, 75h
     int 21h
-    mov dl,6dh
+    mov dl, 6dh
     int 21h
-    mov dl,62h
+    mov dl, 62h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,3ah
+    mov dl, 3ah
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,30h
+    mov dl, 30h
     int 21h
-    mov dl,39h
+    mov dl, 39h
     int 21h
-    mov dl,33h
+    mov dl, 33h
     int 21h
-    mov dl,36h
+    mov dl, 36h
     int 21h
-    mov dl,39h
+    mov dl, 39h
     int 21h
-    mov dl,34h
+    mov dl, 34h
     int 21h
-    mov dl,33h
+    mov dl, 33h
     int 21h
-    mov dl,34h
+    mov dl, 34h
     int 21h
-    mov dl,32h
+    mov dl, 32h
     int 21h
-    mov dl,37h
+    mov dl, 37h
     int 21h
-    mov dl,31h
+    mov dl, 31h
     int 21h
 
-    mov dl,0dh
+    mov dl, 0dh
     int 21h
-    mov dl,0ah
+    mov dl, 0ah
     int 21h
 
 ; Line 7: Guardian's Name: Ronnie C. Altar
-    mov dl,47h
+    mov dl, 47h
     int 21h
-    mov dl,75h
+    mov dl, 75h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
-    mov dl,64h
+    mov dl, 64h
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,27h
+    mov dl, 27h
     int 21h
-    mov dl,73h
+    mov dl, 73h
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,4eh
+    mov dl, 4eh
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,6dh
+    mov dl, 6dh
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,3ah
+    mov dl, 3ah
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,52h
+    mov dl, 52h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,43h
+    mov dl, 43h
     int 21h
-    mov dl,2eh
+    mov dl, 2eh
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,41h
+    mov dl, 41h
     int 21h
-    mov dl,6ch
+    mov dl, 6ch
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,72h
+    mov dl, 72h
     int 21h
 
-    mov dl,0dh
+    mov dl, 0dh
     int 21h
-    mov dl,0ah
+    mov dl, 0ah
     int 21h
 
 ; Line 8: Occupation: Student
-    mov dl,4fh
+    mov dl, 4fh
     int 21h
-    mov dl,63h
+    mov dl, 63h
     int 21h
-    mov dl,63h
+    mov dl, 63h
     int 21h
-    mov dl,75h
+    mov dl, 75h
     int 21h
-    mov dl,70h
+    mov dl, 70h
     int 21h
-    mov dl,61h
+    mov dl, 61h
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,69h
+    mov dl, 69h
     int 21h
-    mov dl,6fh
+    mov dl, 6fh
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,3ah
+    mov dl, 3ah
     int 21h
-    mov dl,20h
+    mov dl, 20h
     int 21h
-    mov dl,53h
+    mov dl, 53h
     int 21h
-    mov dl,74h
+    mov dl, 74h
     int 21h
-    mov dl,75h
+    mov dl, 75h
     int 21h
-    mov dl,64h
+    mov dl, 64h
     int 21h
-    mov dl,65h
+    mov dl, 65h
     int 21h
-    mov dl,6eh
+    mov dl, 6eh
     int 21h
-    mov dl,74h
-    int 21h
-
-    mov dl,0dh
-    int 21h
-    mov dl,0ah
+    mov dl, 74h
     int 21h
 
-    mov ah,4ch
+    mov dl, 0dh
+    int 21h
+    mov dl, 0ah
+    int 21h
+
+    mov ah, 4ch
     int 21h
 
 end start

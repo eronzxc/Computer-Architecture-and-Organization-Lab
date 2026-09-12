@@ -6,15 +6,16 @@
 .code
 
 start:
-    mov ah,02h      
+    mov ah, 02h
 
-    mov dl, 41h     
-    int 21h         
-    mov dl, 61h      
+; Line 1: Aaron Ludwig
+    mov dl, 41h
+    int 21h
+    mov dl, 61h
     int 21h
     mov dl, 72h
     int 21h
-    mov dl, 6fh 
+    mov dl, 6fh
     int 21h
     mov dl, 6eh
     int 21h
@@ -38,6 +39,7 @@ start:
     mov dl, 0ah
     int 21h
 
+; Line 2: A.
     mov dl, 41h
     int 21h
     mov dl, 2eh
@@ -48,6 +50,7 @@ start:
     mov dl, 0ah
     int 21h
 
+; Line 3: Altar
     mov dl, 41h
     int 21h
     mov dl, 6ch
@@ -64,16 +67,7 @@ start:
     mov dl, 0ah
     int 21h
 
-    mov ah,4ch      
+    mov ah, 4ch
     int 21h
 
 end start
-
-    
-
-
-
-
-
-    
-
