@@ -7,19 +7,20 @@
 
 start:
         mov ah, 02h
-        mov cx, 26        ; 26 letters
-        mov bl, 7Ah       ; bl = 'z'
-        mov dh, 41h       ; dh = 'A' 
+        mov cx, 26        ; 26 letters, A to Z
 
+        mov bl, 41h       ; bl = 'a'
+        mov dl, 7ah       ; dl = 'z'
+        mov dh, dl        ; dh = 'z'
 back:
-        mov dl, bl        ; display lowercase 
-        int 21h
-        mov dl, dh        ; display uppercase
-        int 21h
+        int 21h           ; display uppercase (dl)
+        mov dl, bl        ; load lowercase
+        int 21h           ; display lowercase
 
-        dec bl            ; next lowercase letter
-        inc dh            ; next uppercase letter
-
+        inc bl            ; next uppercase letter
+        dec dh            ; next lowercase letter 
+        
+        mov dl, dh
         loop back
 
         mov dl, 0dh     

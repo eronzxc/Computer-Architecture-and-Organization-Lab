@@ -8,6 +8,7 @@
 start:
         mov ah, 02h
         mov cx, 26        ; 26 letters, A to Z
+
         mov bl, 61h       ; bl = 'a'
         mov dl, 41h       ; dl = 'A'
         mov dh, dl        ; dh = 'A'
@@ -15,8 +16,10 @@ back:
         int 21h           ; display uppercase (dl)
         mov dl, bl        ; load lowercase
         int 21h           ; display lowercase
+
         inc dh            ; next uppercase letter
         inc bl            ; next lowercase letter 
+        
         mov dl, dh
         loop back
 
