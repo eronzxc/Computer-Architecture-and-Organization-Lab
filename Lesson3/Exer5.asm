@@ -9,13 +9,13 @@ start:
         mov ah, 02h
         mov cx, 26        ; 26 letters, A to Z
 
-        mov bl, 5ah       ; bl = 'Z'
-        mov dl, 61h       ; dl = 'a'
-        mov dh, dl        ; dh = 'a'
+        mov bl, 41h       ; bl = 'A'
+        mov dl, 7ah       ; dl = 'z'
+        mov dh, dl        ; dh = 'z'
 back:
-        int 21h           ; display uppercase (dl)
-        mov dl, bl        ; load lowercase
         int 21h           ; display lowercase
+        mov dl, bl        ; load uppercase
+        int 21h           ; display uppercase
 
         inc bl            ; next uppercase letter
         dec dh            ; next lowercase letter 
